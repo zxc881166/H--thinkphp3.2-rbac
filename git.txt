@@ -50,6 +50,9 @@ $ git remote add origin https://github.com/zxc881166/H-admin-thinkphp3.2-rbac.gi
 4: 推送到远程 [第一次加-u,关联并推送 ,以后不用]
 $ git push -u origin master
 
+//舍弃线上的文件，则在推送时选择强制推送
+git push origin master -f
+
 
 //克隆到本地
 $ git clone git@github.com:michaelliao/gitskills.git
