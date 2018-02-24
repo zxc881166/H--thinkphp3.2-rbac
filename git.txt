@@ -6,6 +6,9 @@ git
 sudo apt-get install git
 
 -----------Windows使用Git
+//查看git设置列表信息
+$ git config --list
+
 //设置用户-邮箱
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
