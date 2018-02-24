@@ -57,7 +57,14 @@ $ git clone git@github.com:michaelliao/gitskills.git
 //查看远程库信息
 $ git remote
 $ git remote -v
-	
+
+//删除后添加
+$ git remote rm origin
+$ git remote add origin [url]
+
+//修改命令 
+$ git remote origin set-url [url]
+
 //推送分支
 $ git push origin dev
 
