@@ -63,7 +63,7 @@ $ git remote rm origin
 $ git remote add origin [url]
 
 //修改命令 
-$ git remote origin set-url [url]
+$ git remote set-url origin https://github.com/zxc881166/tp3.2_rbac_base.git
 
 //推送分支
 $ git push origin dev
